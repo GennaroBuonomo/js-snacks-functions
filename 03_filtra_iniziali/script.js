@@ -4,7 +4,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function filterbyfirstletters(wordsarray, letter) {
+  return wordsarray.filter(word => word[0] === letter);
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
