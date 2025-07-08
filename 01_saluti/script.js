@@ -4,7 +4,9 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function greetuser(name) {
+  return `Ciao ${name}`;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
