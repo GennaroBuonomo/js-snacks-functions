@@ -9,7 +9,7 @@ function getinitials(namesarray) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(getinitials(names))
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
