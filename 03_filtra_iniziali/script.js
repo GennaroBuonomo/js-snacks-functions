@@ -4,12 +4,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function filterbyfirstletters(wordsarray, letter) {
-  return wordsarray.filter(word => word[0] === letter);
+function findbyinital(array, letter){
+  const filter = []
+
+  for(let i=0; i<names.length; i++){
+    if(names[i][0].toLowerCase() === letter.tolowercase()){
+      filter.push(array[i])
+    }
+  }
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(filterbyfirstletters(names, "A"))
+console.log(findbyinital(names, "a"))
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
